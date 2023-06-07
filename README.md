@@ -27,4 +27,5 @@ To run your tests
 
 | Section                   | Link                          |
 |---------------------------|-------------------------------|
-| challenge | [array-reverse](js/README.md) |
+| challenge1 | [array-reverse](js/README.md) |
+| challenge2 | [insertShiftArray ](js/README1.md) |
