@@ -30,3 +30,6 @@ To run your tests
 | challenge1 | [array-reverse](javascript/Arrayreverse/README.md) |
 | challenge2 | [insertShiftArray ](javascript/InsertShiftArray/README1.md) |
 | challenge5 | [Linked List ](javascript/linked-list/Linkedlist.md) |
+| challenge3 | [Binary Search](javascript/array-binary-search/array-binary-search.md) |
+
+
