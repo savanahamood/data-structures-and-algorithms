@@ -31,5 +31,7 @@ To run your tests
 | challenge2 | [insertShiftArray ](javascript/InsertShiftArray/README1.md) |
 | challenge5 | [Linked List ](javascript/linked-list/Linkedlist.md) |
 | challenge3 | [Binary Search](javascript/array-binary-search/array-binary-search.md) |
+| challenge6 | [linked-list-insertions](javascript/linked-list-insertions/linked-list-insertions.md) |
+
 
 
