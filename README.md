@@ -32,6 +32,7 @@ To run your tests
 | challenge5 | [Linked List ](javascript/linked-list/Linkedlist.md) |
 | challenge3 | [Binary Search](javascript/array-binary-search/array-binary-search.md) |
 | challenge6 | [linked-list-insertions](javascript/linked-list-insertions/linked-list-insertions.md) |
+| challenge7 | [linked-list-kth](javascript/linked-list-kth/linked-list-kth.md) |
 
 
 
