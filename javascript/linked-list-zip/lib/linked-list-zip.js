@@ -89,9 +89,77 @@ class Linkedlist {
           }
         }
       }}
+      zipLL(l1, l2) {
+        if (!l1.head) {
+            return l2;
+        }
+        if (!l2.head) {
+            return l1;
+        }
+    
+        let current1 = l1.head;
+        let current2 = l2.head;
+        let temp1, temp2;
+    
+        while (current1 && current2) {
+            temp1 = current1.next;
+            temp2 = current2.next;
+    
+            current1.next = current2;
+            current2.next = temp1;
+    
+            current1 = temp1;
+            current2 = temp2;
+        }
+    
+        this.head = l1.head;
+
+        return this;    
+     }
+//code with anew list but O(n) of space com.
+   /*  zipLL(l1, l2) {
+        if (!l1.head) {
+            return l2;
+        }
+        if (!l2.head) {
+            return l1;
+        }
+    
+        let l3 = new LinkedList();
+        let current1 = l1.head;
+        let current2 = l2.head;
+        let current3 = null;
+    
+        while (current1 && current2) {
+            if (current3) {
+                current3.next = new Node(current1.value);
+                current3 = current3.next;
+                current3.next = new Node(current2.value);
+                current3 = current3.next;
+            } else {
+                l3.head = new Node(current1.value);
+                current3 = l3.head;
+                current3.next = new Node(current2.value);
+                current3 = current3.next;
+            }
+    
+            current1 = current1.next;
+            current2 = current2.next;
+        }
+    
+        if (current1) {
+            current3.next = current1;
+        }
+        if (current2) {
+            current3.next = current2;
+        }
+    
+        this.head = l3.head; 
+
+        return this;    
+     } */
 
 
-     
     print(){
         let currentNode = this.head;
         let result = '';
