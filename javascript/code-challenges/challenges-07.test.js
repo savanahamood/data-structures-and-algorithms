@@ -38,13 +38,13 @@ Write a function named removeThree that takes an index and an array. The functio
 
 const removeThree = (idx, arr) => {
   // Solution code here...
-  let arr2=[];
-  for (let i=0;i<arr.length;i++){
-   if (i !== idx && i !== idx + 1 && i !== idx + 2){
-    arr2.push(arr[i])
-  }
+  let arr2 = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (i !== idx && i !== idx + 1 && i !== idx + 2) {
+      arr2.push(arr[i])
+    }
 
-  
+
   }
   return arr2
 
@@ -78,14 +78,14 @@ For example, if the input is 'Welcome', the output will be:
 const howMuchPencil = (str) => {
   let result = [];
   // Solution code here...
-  for (let i=0;i<=str.length;i++){
+  for (let i = 0; i <= str.length; i++) {
     //x=str.split("", i)
-         result.push(str.slice(i));
- 
-     //console.log(x)
-  // x.reverse();
- // result.push( x.join(""))
-   }
+    result.push(str.slice(i));
+
+    //console.log(x)
+    // x.reverse();
+    // result.push( x.join(""))
+  }
   return result;
 };
 
@@ -152,10 +152,10 @@ const listFoods = (recipe) => {
     /* const spaceIndex = ingredient.indexOf(' ');
   
     const foodItem = ingredient.slice(spaceIndex+1 ); */
-  const words = ingredient.split(' ');
+    const words = ingredient.split(' ');
     const modifiedIngredient = words.slice(2).join(' ');
     result.push(modifiedIngredient);
-  
+
   }
   return result;
 };
@@ -176,10 +176,10 @@ const splitFoods = (recipe) => {
     /* const spaceIndex = ingredient.indexOf(' ');
   
     const foodItem = ingredient.slice(spaceIndex+1 ); */
-  const words = ingredient.split(' ');
+    const words = ingredient.split(' ');
     const modifiedIngredient = words.slice(2).join(' ');
     result.push(modifiedIngredient);
-  
+
   }
   return result;
 };
@@ -197,6 +197,12 @@ Return a new array containing just the verbs. For example, ['Mix until evenly di
 const stepActions = (recipe) => {
   let result = [];
   // Solution code here...
+  for (let i = 0; i < recipe.steps.length; i++) {
+    const stepss = recipe.steps[i];
+    const words = stepss.split(' ')[0];
+    // const modifiedIngredient = words.slice(2).join(' ');
+    result.push(words);
+  }
   return result;
 };
 
@@ -215,6 +221,13 @@ For example:
 
 const removeEvenValues = (arr) => {
   // Solution code here...
+  for (let i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] % 2 == 0) {
+      arr.splice(i, 1);
+      console.log(arr)
+    }
+  }
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -234,6 +247,14 @@ removeLastCharacters('Gregor', 9) returns ''
 
 const removeLastCharacters = (str, numberOfCharacters) => {
   // Solution code here...
+  if(numberOfCharacters<0){return str}
+  if(numberOfCharacters>str.length){return ''}
+
+  let x=str.length-numberOfCharacters
+    var arr = str.split('');
+    arr.splice(x,numberOfCharacters)
+  str=arr.join('')
+  return str;
 };
 
 
@@ -246,6 +267,12 @@ Write a function named totalSumCSV that, given a string of comma-separated value
 const totalSumCSV = (str) => {
   let total = 0;
   // Solution code here...
+  var arr = str.split(',');
+ 
+ for (let i=0;i<=arr.length-1;i++){
+   
+  total=total+parseInt(arr[i])
+ }
   return total;
 };
 
@@ -260,6 +287,16 @@ For example, removeVowels('gregor') returns 'grgr'.
 
 const removeVowels = (str) => {
   // Solution code here...
+  const vol = ['a', 'e', 'i', 'o', 'u'];
+  let result = '';
+
+  for (let i = 0; i < str.length; i++) {
+    if (!vol.includes(str[i])) {
+      result += str[i];
+    }
+  }
+
+  return result;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -274,6 +311,20 @@ Similarly, extractVowels('The quick brown fox') returns ['Th qck brwn fx', 'eioo
 
 const extractVowels = (str) => {
   // Solution code here...
+  const vol = ['a', 'e', 'i', 'o', 'u'];
+  let result = '';
+  let x='';
+
+  for (let i = 0; i < str.length; i++) {
+    //const char = str[i].toLowerCase();
+
+    if (!vol.includes(str[i])) {
+      result += str[i];
+    }else 
+     x+= str[i]
+  }
+
+  return [result,x.split('').sort().join('')];
 };
 
 /* ------------------------------------------------------------------------------------------------
