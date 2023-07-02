@@ -13,5 +13,5 @@ ll.insert("b");
 ll.insert("c");
 
 //console.log(ll);
-console.log(ll.print());
+//console.log(ll.print());
 
