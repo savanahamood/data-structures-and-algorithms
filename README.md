@@ -35,6 +35,7 @@ To run your tests
 | challenge7 | [linked-list-kth](javascript/linked-list-kth/linked-list-kth.md) |
 | challenge8 | [linked-list-zip](javascript/linked-list-zip/linked-list-zip.md) |
 | challenge10 | [Stack and Queue](./javascript/stackAndQueue/stackandqueue.md) |
+| challenge11 | [Queue using two Stacks.](./javascript/QueueusingtwoStacks/Queue2Stacks.md) |
 
 
 
