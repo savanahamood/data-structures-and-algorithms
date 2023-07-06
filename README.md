@@ -33,6 +33,8 @@ To run your tests
 | challenge3 | [Binary Search](javascript/array-binary-search/array-binary-search.md) |
 | challenge10 | [Stack and Queue](./javascript/stackAndQueue/stackandqueue.md) |
 | challenge11 | [Queue using two Stacks.](./javascript/QueueusingtwoStacks/Queue2Stacks.md) |
+| challenge12 | [stack-queue-animal-shelter](./javascript/stack-queue-animal-shelter/stack-queue-animal-shelter.md) |
+
 
 
 
