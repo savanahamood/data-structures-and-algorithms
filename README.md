@@ -40,6 +40,7 @@ To run your tests
 | challenge13 | [stack-queue-brackets](./javascript/stack-queue-brackets/stack-queue-brackets.md) |
 | challenge15 | [Trees](./javascript/Trees/trees.md) |
 | challenge16 | [Trees MAX](./javascript/treeMax/treeMax.md) |
+| challenge17 | [Tree breadth first](./javascript/tree-breadth-first/tree-breadth-first.md) |
 
 
 
