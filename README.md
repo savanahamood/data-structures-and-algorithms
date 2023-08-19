@@ -42,6 +42,8 @@ To run your tests
 | challenge16 | [Trees MAX](./javascript/treeMax/treeMax.md) |
 | challenge17 | [Tree breadth first](./javascript/tree-breadth-first/tree-breadth-first.md) |
 | challenge18 | [Tree Fizz Buzz](./javascript/tree-fizz-buzz/tree-fizz-buzz.md) |
+| challenge26 | [Insertion Sort](./sorting/insertion/README.md) |
+
 
 
 
