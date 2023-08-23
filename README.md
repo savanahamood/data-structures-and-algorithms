@@ -44,6 +44,8 @@ To run your tests
 | challenge18 | [Tree Fizz Buzz](./javascript/tree-fizz-buzz/tree-fizz-buzz.md) |
 | challenge26 | [Insertion Sort](./sorting/insertion/README.md) |
 | challenge27 | [Merge Sort](./sorting/merge/README.md) |
+| challenge30 | [Hash Tables](./javascript/Hash%20Tables/hashtables.md) |
+
 
 
 
