@@ -45,6 +45,8 @@ To run your tests
 | challenge26 | [Insertion Sort](./sorting/insertion/README.md) |
 | challenge27 | [Merge Sort](./sorting/merge/README.md) |
 | challenge30 | [Hash Tables](./javascript/HashTables/hashtables.md) |
+| challenge31 | [Hashmap-repeated-word](./javascript/hashmap-repeated-word/hashmap-repeated-word.md) |
+
 
 
 
