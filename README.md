@@ -43,6 +43,8 @@ To run your tests
 | challenge27 | [Merge Sort](./sorting/merge/README.md) |
 | challenge30 | [Hash Tables](./javascript/HashTables/hashtables.md) |
 | challenge31 | [Hashmap-repeated-word](./javascript/hashmap-repeated-word/hashmap-repeated-word.md) |
+| challenge32 | [Tree Intersection](./javascript/tree-intersection/tree-intersection.md) |
+
 
 
 
