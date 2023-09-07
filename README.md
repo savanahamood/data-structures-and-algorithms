@@ -47,8 +47,8 @@ To run your tests
 | challenge30 | [Hash Tables](./javascript/HashTables/hashtables.md) |
 | challenge31 | [Hashmap-repeated-word](./javascript/hashmap-repeated-word/hashmap-repeated-word.md) |
 | challenge32 | [Tree Intersection](./javascript/tree-intersection/tree-intersection.md) |
-| challenge33 | [Hashmap Left Join](./javascript/tree-intersection/tree-intersection.md) |
-| challenge35 | [Graph](./javascript/tree-intersection/tree-intersection.md) |
+| challenge33 | [Hashmap Left Join](./javascript/hashmap-left-join/hashmap-left-join.md) |
+| challenge35 | [Graph](./javascript/graph/graph.md) |
 
 
 
