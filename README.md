@@ -46,6 +46,8 @@ To run your tests
 | challenge32 | [Tree Intersection](./javascript/tree-intersection/tree-intersection.md) |
 | challenge33 | [Hashmap Left Join](./javascript/hashmap-left-join/hashmap-left-join.md) |
 | challenge35 | [Graph](./javascript/graph/graph.md) |
+| challenge36 | [Graph Breadth First](./javascript/graph-breadth-first/graph-breadth-first.md) |
+
 
 
 
