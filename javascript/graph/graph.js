@@ -63,29 +63,29 @@ module.exports = Graph;
 
 
 
-const myGraph = new Graph();
+// const myGraph = new Graph();
 
-const zero = myGraph.addVertex(0);
-const one = myGraph.addVertex(1);
-const two = myGraph.addVertex(2);
-const three = myGraph.addVertex(3);
-const four = myGraph.addVertex(4);
-const five = myGraph.addVertex(5);
+// const zero = myGraph.addVertex(0);
+// const one = myGraph.addVertex(1);
+// const two = myGraph.addVertex(2);
+// const three = myGraph.addVertex(3);
+// const four = myGraph.addVertex(4);
+// const five = myGraph.addVertex(5);
 
-myGraph.addEdge(zero, five);
-myGraph.addEdge(zero, three);
-myGraph.addEdge(three, one);
-myGraph.addEdge(four, one);
-myGraph.addEdge(two, three);
-myGraph.addEdge(zero, two);
-myGraph.addEdge(five, four);
-
-
-console.log("after", myGraph);
+// myGraph.addEdge(zero, five);
+// myGraph.addEdge(zero, three);
+// myGraph.addEdge(three, one);
+// myGraph.addEdge(four, one);
+// myGraph.addEdge(two, three);
+// myGraph.addEdge(zero, two);
+// myGraph.addEdge(five, four);
 
 
+// console.log("after", myGraph);
 
 
-for (const [vertex, edges] of myGraph.vertices.entries()) {
-    console.log('Vertex:', vertex.value, 'Edges:', edges.map(edge => edge.vertex.value));
-}
+
+
+// for (const [vertex, edges] of myGraph.vertices.entries()) {
+//     console.log('Vertex:', vertex.value, 'Edges:', edges.map(edge => edge.vertex.value));
+// }
